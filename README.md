@@ -21,11 +21,7 @@ Check the installation by running the command "mvn -version" in CMD.
 2) Navigate to project directory on command prompt
 3) The project comes with it's dependency in it's pom.xml file
 4) Go to the src/main/java-> main.Run->Base.java file edit the "String browsername = prop.getProperty("browser"); Line 35" 
- change the "prop" to "System" -->>"String browsername= System.getProperty("browser");" 
-5)To run the code on chrome simple input "mvn test -Dbrowser=chrome" on the cmd
-6)To run the code on chrome simple input "mvn test -Dbrowser=firefox" on the cmd
-
-
+5) Go to the src/test/java-> testCases-TC_001 -Click run with testNG
 ---------------------------------------------------------------------
 Reports
 At the end of test execution, Refresh "MavenProject" project folder and expand target folder.
